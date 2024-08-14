@@ -1,6 +1,6 @@
 # FHIR SurPass IG Scrapers
 
-This repo contains some scrapers used locally to get info from the FHIR IG due to feed some Language Models with data. The objective of this code is to get data in plain text format to work with some LMs within some experimental contexts.
+This repo contains some scrapers used locally to get info from the FHIR IG due to feed some Language Models with data. The objective of this code is to get data in plain text format to work with some LMs within some experimental contexts. Aslo this repo contains a spider to extract partner info data from surpass website.
 
 ## Download and Server Installation
 
