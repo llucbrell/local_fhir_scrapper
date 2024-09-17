@@ -117,6 +117,11 @@ Este scraper extrae las tablas y la información relativa a la terminología usa
 
 Cada uno de los scrapers guarda los datos extraídos en diferentes directorios como archivos de texto. Estos directorios se crean automáticamente en la raíz del proyecto y se nombran de acuerdo al tipo de información extraída.
 
+## Añadido script de concatenación
+
+Hay un script llamado concat_output.py que si le indicas el nombre del directorio concatena todos los archivos .txt en un único archivo más grande. Esto se ha usado para la creación del NotebookLM de Google.
+
+
 ## Uso Responsable
 
 Estos scrapers no deben ser utilizados para scrapear ninguna web sin permiso. Si decides usarlos, asegúrate de activar las medidas apropiadas en el archivo `settings.py` para respetar las políticas del sitio web y evitar sobrecargar los servidores.
